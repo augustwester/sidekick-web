@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+
+h1, h2, h3, p, ol, a { font-family: "Inter"; color: black; }
+a { color: #1D9DFA; text-decoration: none; }
+h1 { font-weight: bold; font-size: 36; }
+h3, p { font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
+#content { display: flex; flex-direction: row; width: 80%; max-width: 1400px; height: 100%; justify-content: center; align-items: center; margin: 0 auto; }
+#text-content { display: flex; flex-direction: column; }
+#title-box { display: flex; flex-direction: row; align-items: center; gap: 24px; }
+#app-icon { width: 48px; height: 48px; background-image: url(images/icon.png); background-size: contain; }
+#tagline { font-size: 24px; width: 100%; max-width: 550px; line-height: 36px; }
+#button-box { margin-top: 28px; display: flex; flex-direction: row; gap: 25px; }
+.button { display: inline-block; border-radius: 12px; padding: 0 20px 0 20px; min-width: 100px; text-align: center; cursor: pointer; }
+.button:active { transform: translateY(2px); }
+.button-content { display: flex; flex-direction: row; align-items: center; gap: 10px; }
+.button p { font-family: "Inter"; font-weight: bold; display: inline-block; color: white; }
+#download-button { background-color: black; }
+#download-icon { width: 22px; height: 22px; background-image: url(images/download-light.svg); background-size: 22px 22px; }
+#donate-button { background-color: #7b7b7b; }
+#macbook { height: 100%; min-height: 150px; background-image: url(images/macbook.png); background-size: contain; background-repeat: no-repeat; background-position: center; flex: 1; }
+#disclaimer { font-size: 13px; }
+#post { width: 90%; max-width: 800px; margin: 0 auto; margin-top: 50px; margin-bottom: 50px; }
+#post-logo { width: 64px; height: 64px; background-image: url(images/icon.png); background-size: cover; margin: 0 auto; }
+#post h1 { margin-top: 100px; }
+#post p, ol { font-size: 18px; }
+
+@media (prefers-color-scheme: dark) {
+    body { background-color: black; }
+    h1, h2, h3, p, ol { color: white; }
+    #download-button { background-color: white; }
+    #download-button p { color: black; }
+    #download-icon { background-image: url(images/download-dark.svg); }
+    #donate-button { background-color: #333; }
+}
+
+@media screen and (max-width:1200px) {
+    #content { flex-direction: column-reverse; gap: 25px; height: auto; margin-top: 50px; }
+    #text-content { align-items: center; }
+    #tagline { text-align: center; }
+    #macbook { width: 100%; flex: 0.5; }
+}
