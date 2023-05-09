@@ -19,7 +19,7 @@ h3, p { font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smo
 #download-button { background-color: black; }
 #download-icon { width: 22px; height: 22px; background-image: url(images/download-light.svg); background-size: 22px 22px; }
 #donate-button { background-color: #7b7b7b; }
-#macbook { height: 100%; min-height: 150px; background-image: url(images/macbook.png); background-size: contain; background-repeat: no-repeat; background-position: center; flex: 1; }
+#macbook { height: 100%; min-height: 150px; background-image: url(images/macbook-light.png); background-size: contain; background-repeat: no-repeat; background-position: center; flex: 1; }
 #disclaimer { font-size: 13px; }
 #post { width: 90%; max-width: 800px; margin: 0 auto; margin-top: 50px; margin-bottom: 50px; }
 #post-logo { width: 64px; height: 64px; background-image: url(images/icon.png); background-size: cover; margin: 0 auto; }
@@ -33,6 +33,7 @@ h3, p { font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smo
     #download-button p { color: black; }
     #download-icon { background-image: url(images/download-dark.svg); }
     #donate-button { background-color: #333; }
+    #macbook { background-image: url(images/macbook-dark.png); }
 }
 
 @media screen and (max-width:1200px) {
@@ -40,5 +41,7 @@ h3, p { font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smo
     #text-content { align-items: center; }
     #tagline { text-align: center; }
     #tagline br { display: none; }
+    #button-box { flex-direction: column; }
+    #donate-button { display: block; }
     #macbook { width: 100%; flex: 0.5; }
 }
