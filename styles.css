@@ -23,7 +23,7 @@ h3, p { font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smo
 #disclaimer { font-size: 13px; }
 #post { width: 90%; max-width: 800px; margin: 0 auto; margin-top: 50px; margin-bottom: 50px; }
 #post-logo { width: 64px; height: 64px; background-image: url(images/icon.png); background-size: cover; margin: 0 auto; }
-#post h1 { margin-top: 100px; }
+#post h1 { margin-top: 50px; }
 #post p, ol { font-size: 18px; }
 
 @media (prefers-color-scheme: dark) {
