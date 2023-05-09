@@ -11,7 +11,7 @@ h3, p { font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smo
 #title-box { display: flex; flex-direction: row; align-items: center; gap: 24px; }
 #app-icon { width: 48px; height: 48px; background-image: url(images/icon.png); background-size: contain; }
 #tagline { font-size: 24px; width: 100%; max-width: 550px; line-height: 36px; }
-#button-box { margin-top: 28px; display: flex; flex-direction: row; gap: 25px; }
+#button-box { margin-top: 24px; display: flex; flex-direction: row; gap: 25px; }
 .button { display: inline-block; border-radius: 12px; padding: 0 20px 0 20px; min-width: 100px; text-align: center; cursor: pointer; }
 .button:active { transform: translateY(2px); }
 .button-content { display: flex; flex-direction: row; align-items: center; gap: 10px; }
