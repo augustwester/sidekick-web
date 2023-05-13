@@ -44,4 +44,5 @@ h3, p { font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smo
     #button-box { flex-direction: column; }
     #donate-button { display: block; }
     #macbook { width: 100%; flex: 0.5; }
+    #disclaimer { text-align: center; }
 }
